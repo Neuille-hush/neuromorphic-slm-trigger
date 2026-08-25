@@ -1,0 +1,8 @@
+[project]
+name = "spikegate"
+version = "0.1.0"
+dependencies = ["snntorch", "wfdb", "numpy", "scipy", "scikit-learn"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
