@@ -1,8 +1,6 @@
-cat << 'EOF' > .gitignore
 spikegate
 *.o
 *.so
 llama.cpp/
 *.gguf
 __pycache__/
-EOF
