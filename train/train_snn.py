@@ -1,4 +1,3 @@
-cat << 'EOF' > train/train_snn.py
 import torch
 import torch.nn as nn
 import snntorch as snn
@@ -50,4 +49,3 @@ def export_weights(model, filename="config/snn_weights.json"):
 if __name__ == "__main__":
     model = SpikeGateSNN()
     export_weights(model)
-EOF
